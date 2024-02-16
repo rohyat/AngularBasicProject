@@ -1,0 +1,22 @@
+/* Import Bootstrap modal styles only for this component */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* Customize modal appearance */
+.modal-content {
+  background-color: #fff; /* Set your desired background color */
+  border: 1px solid #ccc; /* Set your desired border */
+}
+
+.modal-header {
+  background-color: #007bff; /* Set your desired header background color */
+  color: #fff; /* Set your desired header text color */
+}
+
+.modal-body {
+  padding: 20px; /* Set your desired padding for the body */
+}
+
+.modal-footer {
+  background-color: #f8f9fa; /* Set your desired footer background color */
+  border-top: 1px solid #ccc; /* Set your desired footer border */
+}

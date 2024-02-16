@@ -1,0 +1,17 @@
+#orders {
+    background-color: #ccb7cc;
+    color: #333;
+
+}
+
+h2 {
+    margin: 0;
+    padding-top: 8px;
+}
+
+.order-details {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}

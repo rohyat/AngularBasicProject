@@ -1,0 +1,9 @@
+<section id = "orders">
+    <h2>Order History</h2>
+    <div *ngFor="let order of orders" class="order-details">
+            <p><strong>Order ID:</strong> {{ order.id }}</p>
+            <p><strong>Date:</strong> {{ order.date | date:'medium' }}</p>
+            <p><strong>Total Amount:</strong> {{ order.totalAmount | currency:'USD':'symbol' }}</p>  
+    </div>
+</section>
+

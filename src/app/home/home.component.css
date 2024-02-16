@@ -1,0 +1,22 @@
+img{
+    width:  200px;
+    height: 200px;
+
+}
+
+#products{
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+
+.table {
+   width: 100% ;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
